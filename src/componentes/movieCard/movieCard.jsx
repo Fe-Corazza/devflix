@@ -4,7 +4,9 @@ const MovieCard = ({ movies }) => {
   const movie = movies;
   return (
     <div className={styles.movie}>
-      <p>{movie.Year}</p>
+      <div>
+        <p>{movie.Year}</p>
+      </div>
       <div>
         <img
           src={
